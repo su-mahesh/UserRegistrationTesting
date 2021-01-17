@@ -27,7 +27,7 @@ import java.util.*;
 
         @Test
         public void testFirstNameTest(){
-            Assert.assertEquals(expectedResult, userRegistration.firstName(firstName));
+            Assert.assertEquals(expectedResult, userRegistration.firstNameTesting(firstName));
         }
     }
 
