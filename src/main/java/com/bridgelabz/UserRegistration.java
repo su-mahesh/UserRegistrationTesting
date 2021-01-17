@@ -7,6 +7,11 @@ public class UserRegistration {
 
     public boolean firstNameTesting(String firstName){
             return Pattern.matches(firstLastNamePattern, firstName);
-        }
+    }
+
+    public boolean lastNameTesting(String lastName){
+        return Pattern.matches(firstLastNamePattern, lastName);
+    }
+
 }
 
